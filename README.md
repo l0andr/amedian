@@ -1,2 +1,2 @@
 # amedian
-Set of function for fast and approximate calculation of median
+Set of functions for fast and approximate calculation of median
