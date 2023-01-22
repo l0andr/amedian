@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1674359280 source:/home/loginov/code/amedian/main.cpp
+	<iostream>
+	<random>
+	<ctime>
+	<algorithm>
+	"amedian_calc.h"
+
+1674359217 source:/home/loginov/code/amedian/amedian_calc.cpp
+	"amedian_calc.h"
+	<vector>
+
+1674358742 /home/loginov/code/amedian/amedian_calc.h
+

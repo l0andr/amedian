@@ -32,6 +32,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="amedian_calc.cpp" />
+		<Unit filename="amedian_calc.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

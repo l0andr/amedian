@@ -2,7 +2,7 @@
 #include <random>
 #include <ctime>
 #include <algorithm>
-
+#include "amedian_calc.h"
 using namespace std;
 
 template <typename T>
@@ -32,6 +32,8 @@ int main()
         cout << a[i] << " ";
     }
     cout << endl;
-    cout << "Median:"<<naiveMedian<float>(a.data(),a.size());
+    cout << "Naive Median:"<<naiveMedian<float>(a.data(),a.size());
+    cout << " QuickSelect Median:"<<quickselectMedian<float>(a.data(),a.size());
+
     return 0;
 }

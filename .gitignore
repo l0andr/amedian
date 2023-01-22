@@ -33,3 +33,6 @@
 
 #papers
 docs/*
+
+bin/*
+obj/*
