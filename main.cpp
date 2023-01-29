@@ -32,8 +32,9 @@ int main()
         cout << a[i] << " ";
     }
     cout << endl;
-    cout << "Naive Median:"<<naiveMedian<float>(a.data(),a.size());
-    cout << " QuickSelect Median:"<<quickselectMedian<float>(a.data(),a.size());
+    cout << "Naive Median:"<<naiveMedian<float>(a.data(),a.size()) << endl;
+    cout << "QuickSelect Median:"<<quickselectMedian<float>(a.data(),a.size())<< endl;
+    cout << "Median of Median:"<<quickselectMedian<float>(a.data(),a.size())<< endl;
 
     return 0;
 }
