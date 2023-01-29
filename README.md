@@ -1,2 +1,2 @@
 # amedian
-Set of functions for fast and approximate calculation of median
+"A set of C++ template functions for fast and fastest (but approximate) calculation of the median."
